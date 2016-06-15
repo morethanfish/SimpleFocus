@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Simple Focus</string>
+    <string name="etHint">Task Name</string>
+    <string name="btnStart">Start</string>
+    <string name="btnPause">Pause</string>
+    <string name="btnStop">Stop</string>
+</resources>

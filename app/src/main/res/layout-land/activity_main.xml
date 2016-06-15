@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:padding="16dp"
+    tools:context="com.hfad.simplefocus.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="4"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:gravity="center_horizontal">
+        <EditText
+            android:padding="2dp"
+            android:textSize="24sp"
+            android:gravity="center_horizontal"
+            android:inputType="textCapSentences"
+            android:layout_marginTop="32dp"
+            android:id="@+id/etName"
+            android:background="@color/colorTransparent"
+            android:text=""
+            android:hint="@string/etHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textIsSelectable="false" />
+        <TextView
+            android:padding="2dp"
+            android:layout_marginTop="72dp"
+            android:id="@+id/timer"
+            android:text="25:00"
+            android:textSize="56sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical">
+        <Button
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:id="@+id/btnStartPause"
+            android:text="@string/btnStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:id="@+id/btnStop"
+            android:text="@string/btnStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:id="@+id/btnTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="123"/>
+    </LinearLayout>
+
+</LinearLayout>
